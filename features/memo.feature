@@ -7,3 +7,8 @@
      Given we have homework
       When the due date arrives
       Then the homework is marked as missing
+
+  Scenario: deliver missing homework
+     Given we have missing homework
+      When we turn it in
+      Then the homework is marked as late
