@@ -1,3 +1,5 @@
+Feature: Testing Google Classroom-esque homework
+
   Scenario: deliver homework
      Given we have homework
       When we turn it in
